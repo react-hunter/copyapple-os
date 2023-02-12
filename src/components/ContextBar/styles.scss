@@ -1,0 +1,34 @@
+.context-bar {
+  z-index: 9999999999;
+  display: flex;
+  padding: 0 12px;
+  width: 100%;
+  height: 40px;
+  background-color: #00000099;
+  backdrop-filter: blur(32px);
+  box-shadow: 0px 4px 8px #00000026;
+  align-items: center;
+
+  & > label {
+    display: flex;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    align-items: center;
+    padding: 0 16px;
+
+    &:hover {
+      background-color: dodgerblue;
+    }
+  }
+
+  .logo {
+    width: 36px;
+    height: 36px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 4px 0 8px;
+  }
+}
